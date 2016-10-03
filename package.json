@@ -1,0 +1,23 @@
+{
+  "name": "learn-requirejs",
+  "version": "1.0.0",
+  "description": "Just learning requireJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chilas/requirejs.git"
+  },
+  "author": "chilas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chilas/requirejs/issues"
+  },
+  "homepage": "https://github.com/chilas/requirejs#readme",
+  "dependencies": {
+    "@types/requirejs": "^2.1.28",
+    "requirejs": "^2.3.2"
+  }
+}
