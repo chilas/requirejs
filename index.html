@@ -9,7 +9,12 @@
     <body>
         <div id="output"></div>
         <script src="./node_modules/requirejs/require.js"
-                data-main="./app/common.js"></script>
+                data-main="./app/config"></script>
+        <script>
+            require(['config'], function(){
+                require(['customScripts/jqueryFile'])
+            });
+        </script>
     </body>
 
 </html>

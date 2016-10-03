@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/chilas/requirejs#readme",
   "dependencies": {
+    "@types/angular": "^1.5.16",
     "@types/jquery": "^2.0.32",
     "@types/requirejs": "^2.1.28",
+    "angular": "^1.5.8",
     "jquery": "^3.1.1",
     "requirejs": "^2.3.2"
   }
