@@ -3,16 +3,19 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>RequireJs - The Basics</title>
+        <title>MainOne Document Library</title>
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     </head>
 
     <body>
-        <div id="output"></div>
-        <script src="./node_modules/requirejs/require.js"
-                data-main="./app/config"></script>
+        <data-ng-view></data-ng-view>
+
+        <script src="node_modules/requirejs/require.js" data-main="app/main"></script>
         <script>
-            require(['config'], function(){
-                require(['customScripts/jqueryFile'])
+            require(['main'], function(){
+                require(['core'], function(){
+                });
             });
         </script>
     </body>
