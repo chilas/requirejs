@@ -5,13 +5,14 @@
         <meta charset="UTF-8">
         <title>RequireJs w/ Angular</title>
 
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/metro-bootstrap/dist/css/metro-bootstrap.min.css">
     </head>
 
     <body>
         <data-ng-view></data-ng-view>
 
-        <script src="node_modules/requirejs/require.js" data-main="app/main"></script>
+        <script src="node_modules/requirejs/require.js" 
+                data-main="app/main"></script>
         <script>
             require(['main'], function(){
                 require(['core'], function(){
