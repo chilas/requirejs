@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <title>RequireJs w/ Angular</title>
@@ -8,16 +7,20 @@
     </head>
 
     <body>
-        <data-ng-view></data-ng-view>
+        <data-ng-view>Loading...</data-ng-view>
 
-        <script src="node_modules/requirejs/require.js" 
-                data-main="app/main"></script>
+        <script src="node_modules/requirejs/require.js" data-main="app/main"></script>
         <script>
             require(['main'], function(){
                 require(['core'], function(){
                 });
             });
         </script>
+
+        <footer>
+            <hr>
+            <p>&copy; 2016 Nerd Experiment LLC. All rights reserved. </p>
+        </footer>
     </body>
 
 </html>

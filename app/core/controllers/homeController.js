@@ -6,7 +6,7 @@ define(function () {
 
     var HomeController = function () {
         var vm = this;
-        vm.title = 'This is fun';
+        vm.title = 'Nerd Experiments';
     }
 
     core.controller('homeController', HomeController);

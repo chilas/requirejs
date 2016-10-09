@@ -1,7 +1,32 @@
-<div class="container">
+<section class="container">
+    <header class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">{{vm.title}}</h1>
+        </div>
+    </header>
+</section>
+
+<section class="container">
     <div class="row">
-        <div class="well well-sm">
-            <input type="search" class="form-control input-md" id="search" />
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <input type="search" class="form-control input-md" id="search" placeholder="Enter search term" />
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</section>
+
+<section class="container-fluid">
+    <div class="row">
+        <nav class="col-md-4 col-lg-4 hidden-xs hidden-sm">
+            I am a nav
+        </nav>
+        <main class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+            <div class="well well-sm">
+                I am the main content
+            </div>
+        </main>
+    </div>
+</section>
