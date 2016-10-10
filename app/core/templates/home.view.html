@@ -22,16 +22,75 @@
     <div class="row">
         <!--<nav class="col-md-4 col-lg-4 hidden-xs hidden-sm">-->
         <nav class="col-md-4 col-lg-4">
-            <div class="list-group panel">
-                <a href="#menu-1" data-toggle="collapse" class="list-group-item">Tecnical Shared Document</a>
-                <div class="collapse" id="menu-1">
-                    
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <span class="glyphicon glyphicon-folder-close"></span>
+                            <a href="#customers" data-toggle="collapse" data-parent="accordion"> Customers</a>
+                        </h4>
+                    </div>
+                    <div id="customers" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="#customers-gde" data-toggle="collapse">
+                                    GDE <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                                    </a>
+                                <div id="customers-gde">
+                                    <ul>
+                                        <li>
+                                            Hello World
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#customers-mainone" data-toggle="collapse">
+                                    MainOne <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                                    </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#customers-scotch-io" data-toggle="collapse">
+                                    Scotch IO <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <span class="glyphicon glyphicon-folder-close"></span>
+                            <a href="#vendors" data-toggle="collapse" data-parent="accordion"> Vendors</a>
+                        </h4>
+                    </div>
+                    <div id="vendors" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="#vendors-gde" data-toggle="collapse">
+                                    GDE <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                                    </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#vendors-mainone" data-toggle="collapse">
+                                    MainOne <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                                    </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#vendors-scotch-io" data-toggle="collapse">
+                                    Scotch IO <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
         <main class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
-            <div class="well well-sm">
-                I am the main content
+            <div class="row">
+                <div class="col-md-4">
+                    
+                </div>
             </div>
         </main>
     </div>
